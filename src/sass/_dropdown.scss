@@ -1,0 +1,20 @@
+.dropdown {
+    padding-top: var(--drop-distance, 1rem);
+
+    display: none;
+    visibility: hidden;
+
+    position: absolute;
+    z-index: calc(var(--overlay-z-index, 10) - 1);
+
+    &.is-visible {
+        display: block;
+        visibility: visible;
+    }
+
+    // block type dropdown
+    &.--type-block {
+        position: inherit;
+        z-index: inherit;
+    }
+}

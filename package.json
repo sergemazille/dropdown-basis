@@ -1,0 +1,22 @@
+{
+  "name": "dropdown-basis",
+  "version": "0.0.1",
+  "description": "Simple dropdown component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergemazille/dropdown-basis.git"
+  },
+  "keywords": [
+    "dropdown"
+  ],
+  "author": "Serge Mazille",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergemazille/dropdown-basis/issues"
+  },
+  "homepage": "https://github.com/sergemazille/dropdown-basis#readme"
+}
