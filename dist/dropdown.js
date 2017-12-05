@@ -31,7 +31,7 @@ function registerEvents() {
         let target = e.target;
 
         // close already open dropdowns
-        if (! target.closest('.dropdown') && target.getAttribute('data-toggle') !== 'dropdown') {
+        if (! target.closest('.dropdown') && target.getAttribute('data-toggle') !== 'dropdown' && ! target.closest('.dropdown-group')) {
             let dropdowns = document.querySelectorAll('.dropdown');
             dropdowns.forEach((dropdown) => {
                 dropdown.classList.remove('is-visible');
