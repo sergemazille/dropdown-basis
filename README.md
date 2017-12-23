@@ -54,7 +54,7 @@ By default, a `.dropdown` element will appear above the page's content. Adding t
 
 **`.--trigger-hover`**
 
-This option allow a `.dropdown` element to be triggered via an hover event on the trigger element.
+This option allows a `.dropdown` element to be triggered via an hover event on the trigger element.
 
 Both trigger and `.dropdown` elements has to be inside the same `.dropdown-group` container:
 
